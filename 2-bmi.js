@@ -1,8 +1,7 @@
 // (A) CHANGE BMI MEASURING SYSTEM
 function measureBMI () {
   // (A1) GET HTML ELEMENTS
-  let unit = document.getElementById("bmi-metric").checked,
-      weight = document.getElementById("bmi-weight"),
+  let weight = document.getElementById("bmi-weight"),
       height = document.getElementById("bmi-height")
 
     weightu.innerHTML = "KG";
